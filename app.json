@@ -69,12 +69,12 @@
 
       "BOT_ID": {
          "description": "to get your bot_id using other bot or userbot",
-         "value": ""
+         "value": "5505589668"
       },
 
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "mkspali"
+         "value": "REBEL_OP_BOLTI"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
