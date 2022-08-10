@@ -101,11 +101,6 @@
          "required": true,
          "value": ""
       },
-     "REDIS_URL": {
-         "description": "Required for AFK, Get it from RedisLabs.",
-         "required": true,
-         "value": "redis-15854.c264.ap-south-1-1.ec2.cloud.redislabs.com:15854"
-      },
      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
