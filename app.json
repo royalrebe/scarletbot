@@ -36,17 +36,17 @@
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "3199293"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "3597fa62600da3db380d8532d6c14d38"
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "412094015"
+         "value": "1858407508"
      },
 
       "STRING_SESSION": {
@@ -134,12 +134,12 @@
       "ARQ_API": {
           "description": "Get this from @ARQRobot.",
           "required": true,
-          "value": "RKPQLU-TXPMHP-VODILW-OMJSVR-ARQ"
+          "value": "RUDQXU-PZVUCN-CJDXUX-UUNBTD-ARQ"
      },
       "SPAMWATCH_API": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
          "required": true,
-         "value": "4tA8_mJUxa2s2wsffaN_xhzy1bDNFAFkVfvBLBCCfEAkS2VDeQhgadgo28RiAS6i"
+         "value": "Gn5twp4FwZZtJCqn9eeBZdFdWBSQgvGybv0boepECBmQPJDyAS_EDblKiBssxW2O"
      }, 
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
@@ -148,22 +148,22 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "412094015"
+         "value": ""
      },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "412094015"
+         "value": ""
      },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
-         "value": "412094015"
+         "value": ""
      },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "412094015"
+         "value": ""
      },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
