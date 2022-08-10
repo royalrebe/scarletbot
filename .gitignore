@@ -1,3 +1,19 @@
+# Config files, logs and stuff
+Avenger/modules/helper_funcs/temp.txt
+Avenger/elevated_users.json
+Avenger/config.py
+Avenger/config.ini
+log.txt
+kangsticker.png
+updates.txt
+start_service.bat
+
+# Session files
+Avenger/*.session
+Avenger/*.session-journal
+Nao.session-journal
+*.session
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +143,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# VS code and shit
+*.pyc
+.idea/
+.project
+.pydevproject
+.directory
+.vscode
