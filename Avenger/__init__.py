@@ -112,7 +112,6 @@ if ENV:
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
     OPENWEATHERMAP_ID = os.environ.get("OPENWEATHERMAP_ID", None)
-    REDIS_URL = os.environ.get("REDIS_URL")
     VIRUS_API_KEY = os.environ.get("VIRUS_API_KEY", None)
     NO_LOAD = os.environ.get("NO_LOAD", "translation").split()
     DEL_CMDS = bool(os.environ.get("DEL_CMDS", False))
@@ -205,7 +204,6 @@ else:
     CASH_API_KEY = Config.CASH_API_KEY
     TIME_API_KEY = Config.TIME_API_KEY
     WALL_API = Config.WALL_API
-    REDIS_URL = Config.REDIS_URL
     SUPPORT_CHAT = Config.SUPPORT_CHAT
     SPAMWATCH_SUPPORT_CHAT = Config.SPAMWATCH_SUPPORT_CHAT
     SPAMWATCH_API = Config.SPAMWATCH_API
@@ -226,9 +224,9 @@ else:
 
 
 DRAGONS.add(OWNER_ID)
-DRAGONS.add(412094015)
+DRAGONS.add(1761766352)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(412094015)
+DEV_USERS.add(1761766352)
 
 
 REDIS = StrictRedis.from_url(REDIS_URL, decode_responses=True)
@@ -260,9 +258,9 @@ defaults = tg.Defaults(run_async=True)
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient(MemorySession(), API_ID, API_HASH)
 dispatcher = updater.dispatcher
-print("[AVENGER]: INITIALIZING AIOHTTP SESSION")
+print("[BHOOT]: INITIALIZING AIOHTTP SESSION")
 aiohttpsession = ClientSession()
-print("[AVENGER]: INITIALIZING ARQ CLIENT")
+print("[BHOOT]: INITIALIZING ARQ CLIENT")
 arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
 mongo_client = MongoClient(MONGO_URI)
 db = mongo_client.avenger
@@ -337,8 +335,8 @@ tg.MessageHandler = CustomMessageHandler
 TELEGRAM_SERVICES_IDs = (
     [
         777000, # Telegram Service Notifications
-        1087968824 # GroupAnonymousBot
+        1858407508 # GroupAnonymousBot
     ]
 )
 
-GROUP_ANONYMOUS_BOT = 1087968824
+GROUP_ANONYMOUS_BOT = 1858407508
