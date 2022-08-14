@@ -73,6 +73,7 @@ better_profanity
 textblob 
 nudepy
 nekos.py
+redis
 motor
 gpytranslate
 fontTools
