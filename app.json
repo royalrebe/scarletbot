@@ -84,7 +84,7 @@
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
          "required": true,
-         "value": ""
+         "value": "mongodb://mongo:r4mhY7fIAfJ54Lh7cPZy@containers-us-west-19.railway.app:7487"
       },
      "MONGO_DB": {
          "description": "Don't Change it.",
@@ -94,11 +94,11 @@
      "MONGO_PORT": {
          "description": "Don't Change it.",
          "required": true,
-         "value": "27017"
+         "value": "7487"
       },
      "MONGO_URI": {
          "description": "Second Mongo DB Url for additional features",
-         "required": true,
+         "required": false,
          "value": ""
       },
      "EVENT_LOGS": {
@@ -124,7 +124,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "412094015"
+         "value": "1858407508"
      },
       "ARQ_API": {
           "description": "Get this from @ARQRobot.",
