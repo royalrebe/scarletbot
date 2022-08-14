@@ -252,7 +252,7 @@ arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
 mongo_client = MongoClient(MONGO_URI)
 db = mongo_client.avenger
 
-ubot2 = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH)
+ubot2 = TelegramClient(TOKEN, API_ID, API_HASH).start(bot_token=TOKEN)
 try:
     ubot2.start()
 except BaseException:
