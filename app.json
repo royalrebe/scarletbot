@@ -99,7 +99,7 @@
      "MONGO_URI": {
          "description": "Second Mongo DB Url for additional features",
          "required": false,
-         "value": ""
+         "value": "mongodb://mongo:r4mhY7fIAfJ54Lh7cPZy@containers-us-west-19.railway.app:7487"
       },
      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
@@ -181,7 +181,7 @@
       "DATABASE_URL": {
          "description": "Required for make a working bot. Get yours from elephantsql.",
          "required": true,
-         "value": "-xyz"
+         "value": "postgresql://postgres:HJf4GDPIu0osSkZbVZIQ@containers-us-west-84.railway.app:8043/railway"
      },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
