@@ -90,12 +90,12 @@ buttons = [
     [
         InlineKeyboardButton(text="🏡", callback_data="avenger_back"),
         InlineKeyboardButton(text="🛡️", callback_data="avenger_admin"),
-        InlineKeyboardButton(text="💳", callback_data="avenger_credit"),
-        InlineKeyboardButton(text="🖥️", callback_data="help_back"),
+        InlineKeyboardButton(text="💳", callback_data="avenger_credit")
     ],
     [
         InlineKeyboardButton(
-            text="➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url="t.me/mrsScarlett_bot?startgroup=new"
+            text="➕ Sᴄᴀʀʟᴇᴛ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅꜱ ➕", callback_data="help_back"
+
         ),
     ],
     [
@@ -104,7 +104,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕ Sᴄᴀʀʟᴇᴛ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅꜱ ➕", callback_data="help_back"
+            text="➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url="t.me/mrsScarlett_bot?startgroup=new"
         ),
     ],
 ]
@@ -404,7 +404,7 @@ def avenger_about_callback(update, context):
                     [
                         InlineKeyboardButton(
                             text="Source Code",
-                            url="https://github.com/",
+                            url="https://telegra.ph/file/bf1e7b8373775ecc197df.mp4",
                         ),
                     ],
                     [
@@ -561,7 +561,7 @@ def Source_about_callback(update, context):
                     [
                         InlineKeyboardButton(
                             text="ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ",
-                            url="https://github.com/BotsClub/Executive",
+                            url="https://telegra.ph/file/bf1e7b8373775ecc197df.mp4",
                         ),
                     ],
                 ]
